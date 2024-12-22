@@ -9,7 +9,7 @@ export const ContextProvider = createContext(null);
 
 export default function Home() {
   const [products, setProducts] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("laptop"); // Default search term
+  const [searchTerm, setSearchTerm] = useState(""); // Default search term
   const [loading, setLoading] = useState(false);
 
   return (

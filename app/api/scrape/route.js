@@ -1,12 +1,11 @@
 import puppeteer from "puppeteer-core";
 
 const BROWSER_WS = process.env.PROXY_CONFIG;
-// const BROWSER_WS = process.env.PROXY_CONFIG;
 const web_url = "https://www.amazon.com";
 
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
-  const search_term = searchParams.get("search_term") || "laptop"; // Default to "laptop" if no term provided
+  const search_term = searchParams.get("search_term"); // Default to "laptop" if no term provided
 
   const browser = await puppeteer.connect({
     browserWSEndpoint: BROWSER_WS,

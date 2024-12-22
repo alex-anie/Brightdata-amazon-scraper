@@ -6,7 +6,7 @@ This project is my official submission for the [Brightdata web Scraping challeng
 
 ## Live Demo
 
-You can find the live [demo here](https://brightdata-amazon-scraper-gules.vercel.app/).
+You can find the live [demo here](https://brightdata-amazon-scraper-b60mlu3vv-alex-anies-projects.vercel.app/).
 
 ![live-preview](/locals/live-preview.gif)
 
