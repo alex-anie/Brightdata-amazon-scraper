@@ -1,6 +1,7 @@
 import puppeteer from "puppeteer-core";
 
 const BROWSER_WS = process.env.PROXY_CONFIG;
+// const BROWSER_WS = process.env.PROXY_CONFIG;
 const web_url = "https://www.amazon.com";
 
 export async function GET(req) {
